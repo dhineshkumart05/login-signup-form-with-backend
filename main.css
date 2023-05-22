@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('login\(2\).jpg');
+    background-repeat: no-repeat;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.main{
+    place-items: center;
+    padding-top: 25px;
+    background-image: url("csk.jpg");
+    width: 500px;
+    height: 500px;
+    padding-left: 15px;
+    border-radius:15px;
+    box-shadow:2px 1px 13px 15px rgb(153, 1, 255) ;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+   
+    
+}
+
+.box{
+   width: 75%;
+   height: 25px;
+   border-radius: 15px;
+   border: none;
+   padding: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   margin: 10px;
+   opacity: 0.5;
+   color:royalblue;
+}
+
+a{
+    color: rgb(5, 255, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.button{
+    width: 95%;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   background-color: rgb(255, 129, 2) ;
+   opacity: 0.5;
+   margin-bottom: 50px;
+}
+
+
+#new{
+    display: inline;
+    color: white;
+}
+
+#account{
+    text-align: center;
+}

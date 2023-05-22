@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <form action="signup5.php" method="post">
+            <div><h1>Sign up</h1></div>
+            <div >
+                <input type="text" name="username" class="box" placeholder="Username">
+            </div>
+            <div >
+                <input type="email" name="email" class="box" placeholder="Email ID">
+              </div>
+              <div>
+                  <input type="password" name="pswd"  class="box" placeholder="Password" class="Password">
+                  <input type="password" name="confrim_password" class="box" placeholder="Confrim Password" class="confrim_password">
+            </div>
+            <div>
+                <input type="submit" value="sign up" class="button" placeholder="Sign up" name="submit" >
+            </div>
+            <div id="account">
+                <p  id="new">Existing user ?</p><a href="login.php">Log in your account</a>
+            </div>  
+        </form>
+    </div>
+</body>
+</html>
