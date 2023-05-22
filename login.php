@@ -56,10 +56,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
         <form action="login.php" method="post">
             <div><h1>log in</h1></div>
             <div>
-              <input type="email" name="email"  class="box" placeholder="Email ID">
+              <input type="email" name="email"  class="box" placeholder="Email ID" required>
             </div>
             <div >
-                <input type="password" name="pswd" class="box" placeholder="Password"><br>
+                <input type="password" name="pswd" class="box" placeholder="Password" required><br>
                 <a href="password.php">forget password ?</a>
             </div>
 
