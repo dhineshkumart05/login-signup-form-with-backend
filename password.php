@@ -46,13 +46,13 @@ if(isset($_POST['change_password']))
         <form action="password.php" method="post">
             <div><h1>Reset Password</h1></div>
             <div >
-                <input type="password" name="old_password" class="box" placeholder="Old Password">
+                <input type="password" name="old_password" class="box" placeholder="Old Password" required>
             </div>
             <div >
-                <input type="password" name="new_password" class="box" placeholder="New Password">
+                <input type="password" name="new_password" class="box" placeholder="New Password" required>
             </div>
             <div >
-                <input type="password" name="confrim_password" class="box" placeholder="Confrim Password">
+                <input type="password" name="confrim_password" class="box" placeholder="Confrim Password" required>
             </div>
             <div>
                 <input type="submit" value="update" class="button" placeholder="update" name="change_password">
